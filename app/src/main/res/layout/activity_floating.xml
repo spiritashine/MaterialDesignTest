@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_floating"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hujie.materialdesigntest.FloatingActivity">
+    <!--<Button-->
+        <!--android:id="@+id/btn"-->
+        <!--android:background="@android:drawable/dialog_holo_light_frame"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content" />-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/float_button"
+        app:srcCompat="@android:drawable/sym_action_email"
+        app:rippleColor="#0f0"
+        app:elevation="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="40dp"
+        app:pressedTranslationZ="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
